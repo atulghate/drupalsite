@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '7348e596cd4d7d526f16642f7f8d9d3e24636b78',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -641,12 +641,21 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '7348e596cd4d7d526f16642f7f8d9d3e24636b78',
+            'dev_requirement' => false,
+        ),
+        'drupal/like_and_dislike' => array(
+            'pretty_version' => '1.0.0-beta2',
+            'version' => '1.0.0.0-beta2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/like_and_dislike',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-beta2',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -912,6 +921,15 @@
             'replaced' => array(
                 0 => '9.2.7',
             ),
+        ),
+        'drupal/votingapi' => array(
+            'pretty_version' => '3.0.0-beta2',
+            'version' => '3.0.0.0-beta2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/votingapi',
+            'aliases' => array(),
+            'reference' => '8.x-3.0-beta2',
+            'dev_requirement' => false,
         ),
         'drupal/workflows' => array(
             'dev_requirement' => false,

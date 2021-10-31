@@ -22,8 +22,10 @@
         "drupal/core-recommended": "^9.2",
         "drupal/core-vendor-hardening": "^9.2",
         "drupal/go_back": "^1.6",
+        "drupal/like_and_dislike": "^1.0@beta",
         "drupal/mailsystem": "^4.3",
         "drupal/phpmailer_smtp": "^2.1@alpha",
+        "drupal/votingapi": "^3.0@beta",
         "drush/drush": "^10.6"
     },
     "conflict": {
