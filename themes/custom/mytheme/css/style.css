@@ -1,0 +1,17 @@
+ body {
+     overflow-x: hidden;
+     margin: 0px;
+ }
+ 
+ nav#block-mainnavigation {
+     text-align: center;
+ }
+ 
+ .contextual-region ul li {
+     display: inline;
+     padding: 20px;
+ }
+ 
+ .contextual-region ul li a {
+     text-decoration: none;
+ }
