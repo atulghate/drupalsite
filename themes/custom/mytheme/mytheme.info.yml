@@ -1,21 +1,18 @@
-name: my custom theme
+name: Custom Theme
 type: theme
 description: 'Custom Theme for My Website.'
-core: 8.x
+package: Other
 base theme: false
+core: 8.x
 core_version_requirement: ^8 || ^9
 libraries:
-- mytheme/global-styling
+  - mytheme/global-styling
 regions:
-  header_left: 'Header Left'
-  navigation: 'Main Navigation'
-  header_right: 'Header Right'
-  content_header: 'Page Header'
-  content_top_fluid: 'Page top Full Width'
-  content_top: 'Content top'
-  content: 'Content' #required!
-  content_bottom: 'Content bottom'
-  content_bottom_fluid: 'Page bottom Full Width'
-  sidebar_right: 'Right Sidebar'
-  footer_top: 'Footer Top'
-  footer_middle: 'Footer Middle'
+  header: header
+  navigation: Main navigation
+  content: Content
+  right_sidebar: Right sidebar
+  footer_first: Footer First
+  footer_second: Footer Second
+  footer_third: Footer Third
+  footer_bottom: Footer Bottom 
